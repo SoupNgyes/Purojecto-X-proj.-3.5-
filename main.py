@@ -34,6 +34,14 @@ def drawArt():
     komi.forward(x)
     komi.right(91)
     x += 1
-
-    
+  
+  Yor = turtle.Turtle()
+  Yor.color("purple")
+  Yor.speed(2147483647)
+  x = 0
+  while x < 325:
+    Yor.forward(x)
+    Yor.right(50)
+    x += 1
+  
 drawArt()
