@@ -18,20 +18,20 @@ def drawSquare(turtle):
 def drawArt():
   kaia = turtle.Turtle()
   kaia.color("green")
-
+  kaia.speed(2147483647)
   x = 0
   while x < 36:
     drawSquare(kaia)
     kaia.right(10)
     x += 1
 
-def drawArt():
+
   komi = turtle.Turtle()
   komi.color("blue")
-
+  komi.speed(2147483647)
   x = 0
-  while x < 36:
-    drawSquare(komi)
+  while x < 300:
+    komi.forward(x)
     komi.right(91)
     x += 1
 
